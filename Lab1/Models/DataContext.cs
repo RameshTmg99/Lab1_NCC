@@ -13,5 +13,10 @@ namespace Lab1.Models
 
         }
         public DbSet<Product> products { get; set; }
+
+        internal static int ExecuteSqlCommand(string v, object[] parameterArray)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
